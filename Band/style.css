@@ -1,0 +1,121 @@
+body{
+    font: 20px Montserrat,sans-serif;
+    line-height: 1.5;
+    
+    
+}
+.navbar.navbar-item a:active{
+    color: #f1f1f2;
+}
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+    border-radius: 0;
+}
+.w-100 {
+    width: 100% !important;
+    height: 100vh;
+    object-fit: cover;
+  }
+  .dropdown-menu{
+      background-color: rgba(202, 202, 202, 0.582) !important;
+  }
+  .container{
+      padding: 80px 100px;
+     
+  }
+  .container h3{
+    letter-spacing: 5px;
+  }
+  .person{
+      border: 10px solid transparent;
+      opacity: 0.9;
+      margin-bottom: 25px;
+   
+      
+  }
+   .collapse{
+      font-size: 14px!important;
+  }
+  .person:hover{
+      border-color: #f1f1f2;
+  }
+  .container-fluid{
+      padding: 80px 100px;
+      text-align: center;
+  }
+  .bg-dark .container-fluid h3{
+      letter-spacing: 10px;
+      color: #f1f1f2;
+      font-weight: bold;
+  }
+  .bg-dark .container-fluid p{
+      color: #f1f1f2;
+  }
+ .bg-dark .container-fluid span{
+     font-size: small;
+ }
+ .bg-grey{
+     background-color: rgb(116, 124, 131);
+ }
+ .img-thumbnail{
+     border: none;
+     border-radius: 0;
+     
+ }
+ .card-body p{
+     margin-top: 15px;
+     color: rgb(34, 31, 31) !important;
+     
+ }
+
+ .btn:hover{
+     transition: 0.4s;
+ }
+ .card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    }
+
+
+
+.modal-header, h4 {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  .modal-header .close{
+      background-color: #333;
+      color: #fff !important;
+
+  }
+  .modal-header, .modal-body {
+    padding: 40px 50px;
+  }
+.form-group .btn:hover{
+    border: 1px solid #333;
+}
+
+.modal-body .btn-block{
+    padding: 10px 20px;
+    transition: .4s;
+    border-radius: 4px #333 ;
+    background-color: #333;
+    color: #fff;
+}
+
+footer .container-fluid{
+    padding: 20px 20px;
+}
+
+.carousel-caption >h2{
+    letter-spacing: 5px;
+
+}
