@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary{
+    background-color: rgb(112, 25, 194) !important;
+    color: aliceblue !important;
+}
+.navbar-dark li a{
+    color: rgb(255, 255, 255) !important;
+}
+
+.text-white{
+    color: rgb(15, 16, 17) !important;
+}
+
+.border{
+    border-radius: 19px !important;
+}
+
+
+@media (max-width:700px){
+      .card .card-body h2{
+          font-size: 1rem;
+      }
+}
