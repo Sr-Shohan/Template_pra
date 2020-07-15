@@ -1,3 +1,66 @@
+.sub-header{
+  background-color: rgb(142, 214, 33);
+  height: 46px;
+  line-height: 46px;
+  z-index: 999;
+}
+.sub-header  ul li {
+  list-style-type: none;
+  display: inline-block;
+  color: aliceblue;
+}
+.sub-header .left-icon{
+  float: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.sub-header ul.left-icon li ,ul.right-icon li{
+  border-left: 1px solid rgb(224, 221, 221);
+  padding: 0px 20px;
+}
+
+.sub-header ul.left-icon li:last-child, ul.right-icon li:last-child{
+  border-right: 1px solid rgb(224, 221, 221) ;
+}
+.sub-header ul.left-icon li i{
+  font-size: 13px;
+  padding-right: 5px;
+}
+.sub-header ul.right-icon {
+float: right;
+}
+.sub-header ul.right-icon li {
+margin-right: -10px;
+width: 46px;
+}
+.sub-header ul.right-icon li a{
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width:780px){
+  .sub-header{
+      display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel-item {
     height: 100vh;
     width: 100%;

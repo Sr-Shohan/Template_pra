@@ -1,0 +1,86 @@
+/* ===========Sub header ======= */
+.sub-header{
+    background-color: rgb(142, 214, 33);
+    height: 46px;
+    line-height: 46px;
+    z-index: 999;
+}
+.sub-header  ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: aliceblue;
+}
+.sub-header .left-icon{
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.sub-header ul.left-icon li ,ul.right-icon li{
+    border-left: 1px solid rgb(224, 221, 221);
+    padding: 0px 20px;
+}
+
+.sub-header ul.left-icon li:last-child, ul.right-icon li:last-child{
+    border-right: 1px solid rgb(224, 221, 221) ;
+}
+.sub-header ul.left-icon li i{
+    font-size: 13px;
+    padding-right: 5px;
+}
+.sub-header ul.right-icon {
+	float: right;
+}
+.sub-header ul.right-icon li {
+	margin-right: -10px;
+	width: 46px;
+}
+.sub-header ul.right-icon li a{
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:780px){
+    .sub-header{
+        display: none;
+    }
+}
+
+
+/* ============Navbar========= */
+.bg-secondary{
+    background: transparent !important;
+    transition: .5s ease-out;
+}
+.carousel-item{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 95vh !important;
+}
+.img-fill{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center
+  }
+  
+  .img-fill img {
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+  }
+  
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 100px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: left;
+  }
