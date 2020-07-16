@@ -32,7 +32,6 @@ jQuery( document ).ready(function( $ ) {
             $("header").removeClass("background-header");
           }
         });
-        
 		if ($('.owl-testimonials').length) {
             $('.owl-testimonials').owlCarousel({
                 loop: true,

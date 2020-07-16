@@ -117,7 +117,7 @@ a.border-button:hover {
 }
 
 #preloader .jumper > div {
-  background-color: rgb(247, 247, 247);
+  background-color: #fff;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -240,7 +240,7 @@ header {
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 }
 header .navbar {
 	padding: 20px 0px;
@@ -267,6 +267,8 @@ header .navbar {
 .background-header .navbar-nav .show>.nav-link {
 	color: #a4c639!important;
 }
+
+
 .navbar .navbar-brand {
 	float: 	left;
 	margin-top: 12px;
